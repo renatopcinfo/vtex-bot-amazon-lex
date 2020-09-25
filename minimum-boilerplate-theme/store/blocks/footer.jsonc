@@ -1,0 +1,56 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]    
+  },
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#footer"
+    ]    
+  },
+  "flex-layout.row#footer": { 
+    "children": [
+      "accepted-payment-methods",
+      "image",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "footer",
+      "paddingTop": 7,
+      "paddingBottom": 7
+    }
+  },
+  "flex-layout.col#footer-left-desktop": {
+    "children": [
+        "accepted-payment-methods",
+        "image",
+        "social-networks"
+    ]
+},
+  "accepted-payment-methods": {
+      "props": {
+        "paymentMethods": ["mastercard", "visa", "diners club"],
+        "showInColor": true
+      }
+  },
+  "image": {
+    "props": {
+      "width": 100,
+      "src": "https://trello-attachments.s3.amazonaws.com/5f3da4396ff8c20186028831/5f6a7ccc0ba3d23fbbeb112c/549d428ab8b0f11bd2424f740030232a/Logo_6_G.svg"
+    }
+  },
+  "social-networks":{
+      "props": {
+          "socialNetworks": [
+            { "url": "https://facebook.com/foo", "name": "Facebook" },
+            { "url": "https://twitter.com/foo", "name": "Twitter" },
+            { "url": "https://instagram.com/foo", "name": "Instagram" }
+          ],
+          "showInColor": true
+      }
+  }
+}

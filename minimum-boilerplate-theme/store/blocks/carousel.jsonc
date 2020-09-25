@@ -1,0 +1,58 @@
+{
+  "slider-layout": {
+    "children": ["info-card#brand1","info-card#brand2","info-card#brand3"],
+    "props": {
+      "autoplay": {
+        "timeout": 7000,
+        "stopOnHover": true
+      },
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+  "info-card#brand1": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=450&q=60",
+      "headline": "Festival Meu Escritório em Casa",
+      "subhead": "Aproveite para reformar seu espaço de trabalho ou estudo com 20% de desconto.",
+      "callToActionMode": "button",
+      "callToActionText": "Saiba Mais",
+      "callToActionUrl": "/macbook-air-apple/p",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#brand2": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "right",
+      "imageUrl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=450&q=60",
+      "headline": "Notebooks performáticos",
+      "subhead": "Aquele computador dos sonhos agora disponível em um só click.",
+      "callToActionMode": "button",
+      "callToActionText": "Saiba Mais",
+      "callToActionUrl": "/macbook-air-apple/p",
+      "textAlignment": "center"
+    }
+  },
+  "info-card#brand3": {
+    "props": {
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://images.unsplash.com/photo-1550009158-9ebf69173e03?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=490&q=80",
+      "headline": "Equipamentos",
+      "subhead": "Temos tudo o que você precisa para se equipar com estilo.",
+      "callToActionMode": "button",
+      "callToActionText": "Saiba Mais",
+      "callToActionUrl": "/macbook-air-apple/p",
+      "textAlignment": "center"
+    }
+  }
+}

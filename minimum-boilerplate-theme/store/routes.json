@@ -1,0 +1,11 @@
+{
+    "store.custom#notebooks": {
+      "path": "/notebooks"
+    },
+    "store.custom#celulares": {
+        "path": "/celulares"
+    },
+    "store.custom#equipamentos": {
+      "path": "/equipamentos"
+    }
+  }

@@ -1,0 +1,11 @@
+{
+    "store.custom#equipamentos": {
+        "blocks": ["rich-text"]
+      },
+      "rich-text": {
+        "props": {
+          "text": "**World 2!**",
+          "textPosition": "CENTER"
+        }
+      }
+  }

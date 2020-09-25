@@ -1,0 +1,46 @@
+{
+    "vtex.menu@2.x:menu#categories": {
+        "children": [
+            "menu-item#brand1",
+            "menu-item#brand2",
+            "menu-item#brand3"
+        ],
+        "props":{
+            "orientation": "horizontal",
+            "blockClass": "menu"
+        }
+    },
+    "menu-item#brand1":{
+        "props":{
+            "text": "Notebooks",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-1",
+            "itemProps": {
+                "href": "/macbook-air-apple/p"
+            }
+        }
+    },
+    "menu-item#brand2":{
+        "props":{
+            "text": "Celulares",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-1",
+            "itemProps": {
+                "href": "/smartphone-samsung-galaxy-s10-/p"
+            }
+        }
+    },
+    "menu-item#brand3":{
+        "props":{
+            "text": "Equipamentos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-1",
+            "itemProps": {
+                "href": "/smartphone-samsung-galaxy-s10-/p"
+            }
+        }
+    }
+}
